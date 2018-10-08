@@ -1,7 +1,7 @@
 {
-  "name": "gridfw-monitor",
+  "name": "gridfw-logger",
   "version": "0.0.1",
-  "description": "Monitor for GridFW framework",
+  "description": "logger for GridFW framework",
   "main": "build/index.js",
   "scripts": {
     "compile": "gulp",
@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gridfw/gridfw-monitor.git"
+    "url": "git+https://github.com/gridfw/gridfw-logger.git"
   },
   "keywords": [
-    "monitoring",
+    "logger",
     "gridfw"
   ],
   "bugs": {
-    "url": "https://github.com/gridfw/gridfw-monitor/issues"
+    "url": "https://github.com/gridfw/gridfw-logger/issues"
   },
-  "homepage": "https://github.com/gridfw/gridfw-monitor#readme"
+  "homepage": "https://github.com/gridfw/gridfw-logger#readme"
 }
