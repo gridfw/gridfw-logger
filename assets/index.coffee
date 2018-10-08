@@ -34,4 +34,5 @@ module.exports= (app, {level, mode})->
 			value: logger[k]
 			configurable: true
 			writable: true
+		++i
 	return
