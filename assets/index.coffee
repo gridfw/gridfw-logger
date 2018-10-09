@@ -1,8 +1,6 @@
 ###*
  * Show monitoring for GridFW apps
 ###
-# void
-LoggerVoid = require './logger-void'
 # Log to console (dev mode)
 LoggerConsole = require './logger-console'
 

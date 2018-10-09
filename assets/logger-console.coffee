@@ -13,7 +13,7 @@ CONSOLE_COLORS=
 # print logs into console
 printLog = (method)->
 	color = CONSOLE_COLORS[method]
-	mt = "\x1b[7m".concat color, method.toUpperCase(), "\t\x1b[0m", color
+	mt = "\x1b[7m".concat color, ' -', method.toUpperCase(), "- \t\x1b[0m", color
 	()->
 		args = Array.from arguments
 		# GERROR
