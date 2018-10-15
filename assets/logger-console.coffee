@@ -18,7 +18,7 @@ printLog = (method)->
 		args = Array.from arguments
 		# GERROR
 		for el, i in args
-			if el.code
+			if el and el.code
 				args[i] = el.toString()
 		# 
 		args.unshift mt
