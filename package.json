@@ -1,6 +1,6 @@
 {
   "name": "gridfw-logger",
-  "version": "0.0.5",
+  "version": "1.0.2",
   "description": "logger for GridFW framework",
   "main": "build/index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {},
   "devDependencies": {
     "cli-table": "^0.3.1",
+    "gridfw-compiler": "^1.0.0",
     "gulp": "^4.0.0",
     "gulp-chug": "^0.5.1",
     "gulp-coffeescript": "0.0.15",
