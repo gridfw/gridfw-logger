@@ -8,10 +8,9 @@ LEVELS= ['debug', 'log', 'info', 'warn', 'error', 'fatalError']
 
 VOID = ->
 
-module.exports= (app, {level, mode})->
+module.exports= (app, {level})->
 	# set log level
 	level ?= 'debug'
-	mode ?= 'dev'
 
 	# enable console logger
 	logger = LoggerConsole
